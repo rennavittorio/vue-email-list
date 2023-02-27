@@ -13,9 +13,13 @@
 <body id="app">
     
     <main>
-        <h1>
-            {{ fisrtName }}
-        </h1>
+
+        <ul>
+            <li v-for="mail in mailList">
+                {{ mail }}
+            </li>
+        </ul>
+
     </main>
 
     <script src="./js/app.js"></script>
