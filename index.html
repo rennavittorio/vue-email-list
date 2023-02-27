@@ -14,10 +14,12 @@
     
     <main>
 
-        <ul>
+        <ul v-if=" mailList.length === 10 ">
+
             <li v-for="mail in mailList">
                 {{ mail }}
             </li>
+            
         </ul>
 
     </main>
